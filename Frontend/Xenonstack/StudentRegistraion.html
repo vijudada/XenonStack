@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration Form</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+		}
+		form {
+			background-color: #fff;
+			padding: 20px;
+			max-width: 500px;
+			margin: 20px auto;
+			box-shadow: 1px 1px 5px #ccc;
+			border-radius: 5px;
+		}
+		input[type=text], input[type=email], input[type=password] {
+			padding: 10px;
+			display: block;
+			width: 100%;
+			border: none;
+			border-radius: 3px;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+			border: 1px solid #ccc;
+		}
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			padding: 10px;
+			border-radius: 3px;
+			cursor: pointer;
+			font-size: 16px;
+			font-weight: bold;
+			margin-top: 20px;
+		}
+		label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Enter your name">
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" placeholder="Enter your email">
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" placeholder="Enter your password">
+
+		<label for="confirm_password">Confirm Password:</label>
+		<input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password">
+
+		
+
+		<label for="gender">Gender:</label>
+		<select id="gender" name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+		</select>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
